@@ -19,10 +19,13 @@
 * Name
 * Manager
 
-## Specifications
+[//]: # (## Specifications)
 
-The user must be able to view, insert, modify and delete schools, installations and companies.
+[//]: # ()
+[//]: # (The user must be able to view, insert, modify and delete schools, installations and companies.)
 
-In the case of insert and delete, the user must be able to insert or delete one or more resources.
+[//]: # ()
+[//]: # (In the case of insert and delete, the user must be able to insert or delete one or more resources.)
 
-In the case of view, the user must be able to view one, multiple or all the resources.
+[//]: # ()
+[//]: # (In the case of view, the user must be able to view one, multiple or all the resources.)
