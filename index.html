@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  
+  <link href="styles.css" rel="stylesheet">
+  
+  <script src="Resolver.js" type="module" defer></script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="card">
+    <h2>School</h2>
+    
+    <form id="school-form">
+      <label>id:<br/>
+        <input name="id" type="text"/><br/>
+      </label><br/>
+      
+      <label>Name:<br/>
+        <input name="name" type="text"/><br/>
+      </label><br/>
+      
+      <label>City:<br/>
+        <input name="city" type="text"/><br/>
+      </label><br/>
+      
+      <label>Manager:<br/>
+        <input name="manager" type="text"/><br/>
+      </label><br/>
+      
+      <div class="buttons">
+        <input onclick="resolve('school-form', 'GET')" type="button" value="GET">
+        <input onclick="resolve('school-form', 'GET-ALL')" type="button" value="GET ALL">
+        <input onclick="resolve('school-form', 'POST')" type="button" value="POST">
+        <input onclick="resolve('school-form', 'PATCH')" type="button" value="PATCH">
+        <input onclick="resolve('school-form', 'DELETE')" type="button" value="DELETE">
+        <input onclick="resolve('school-form', 'DELETE-ALL')" type="button" value="DELETE ALL">
+      </div>
+    </form>
+  </div>
+  
+  <div class="card">
+    <h2>Company</h2>
+    
+    <form id="company-form">
+      <label>id:<br/>
+        <input name="id" type="text"/><br/>
+      </label><br/>
+      
+      <label>Name:<br/>
+        <input name="name" type="text"/><br/>
+      </label><br/>
+      
+      <label>Manager:<br/>
+        <input name="manager" type="text"/><br/>
+      </label><br/><br/><br/><br/>
+      
+      <div class="buttons">
+        <input onclick="resolve('company-form', 'GET')" type="button" value="GET">
+        <input onclick="resolve('company-form', 'GET-ALL')" type="button" value="GET ALL">
+        <input onclick="resolve('company-form', 'POST')" type="button" value="POST">
+        <input onclick="resolve('company-form', 'PATCH')" type="button" value="PATCH">
+        <input onclick="resolve('company-form', 'DELETE')" type="button" value="DELETE">
+        <input onclick="resolve('company-form', 'DELETE-ALL')" type="button" value="DELETE ALL">
+      </div>
+    </form>
+  
+  </div>
+  
+  <div class="card">
+    <h2>Installation</h2>
+    
+    <form id="installation-form">
+      <label>id:<br/>
+        <input name="id" type="text"/><br/>
+      </label><br/>
+      
+      <label>Name:<br/>
+        <input name="name" type="text"/><br/>
+      </label><br/>
+      
+      <label>Size:<br/>
+        <input name="name" type="number"/><br/>
+      </label><br/>
+      
+      <label>Manager:<br/>
+        <input name="manager" type="text"/><br/>
+      </label><br/>
+      
+      <div class="buttons">
+        <input onclick="resolve('installation-form', 'GET')" type="button" value="GET">
+        <input onclick="resolve('installation-form', 'GET-ALL')" type="button" value="GET ALL">
+        <input onclick="resolve('installation-form', 'POST')" type="button" value="POST">
+        <input onclick="resolve('installation-form', 'PATCH')" type="button" value="PATCH">
+        <input onclick="resolve('installation-form', 'DELETE')" type="button" value="DELETE">
+        <input onclick="resolve('installation-form', 'DELETE-ALL')" type="button" value="DELETE ALL">
+      </div>
+    </form>
+  
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+  padding: 64px;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.wrapper .card {
+  width: 350px;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.wrapper .card input {
+  width: 342px;
+}
+.wrapper .card .buttons {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.wrapper .card .buttons input {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
